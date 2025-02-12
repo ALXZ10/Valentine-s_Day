@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14 de febrero</title>
+    <style>
+        body {
+            background-image: url(images/tandem_grey.png);
+        }
+        body::before {
+        content: url(images/tandem_grey.png) url(images/broken.png)
+            url(images/clock.png) url(images/colors.png) url(images/tarjeta-regalo.png)
+            url(images/thePerks.png);
+        display: none;
+        }
+        .certificate {
+            background: #fff;
+            background-image: url(images/tarjeta-regalo.png);
+            box-shadow: 0 0 5px #888;
+        }
+        .benefits {
+            background: #fff;
+            background-image: url(images/thePerks.png);
+            box-shadow: 0 0 5px #888;
+        }
+        .no {
+            background-image: url(images/broken.png);
+        }
+        .yes {
+            background-image: url(images/colors.png);
+        }
+        .maybe {
+            background-image: url(images/clock.png);
+        }
+        #image {
+            height: 517px;
+            width: 780px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <div id="image"></div>
+    
+</body>
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+</html>
